@@ -59,7 +59,7 @@ const login = () => {
           <button
             type="submit"
             className="w-[40%] bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-900 transition">
-            Sign Up
+            login
           </button>
          {/* Signup Redirect */}
           <p className="text-center text-sm text-gray-600 mt-4">
