@@ -5,7 +5,7 @@ import React, { createContext, useState, useEffect } from "react";
 export const AppContext = createContext();
 
 const AppContextProvider = ({ children }) => {
-const backendUrl = "http://localhost:3000/api";
+const backendUrl = "https://sap-work-backend.vercel.app/api";
 
 console.log(backendUrl);
   const [user, setUser] = useState(null);
