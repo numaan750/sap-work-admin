@@ -167,7 +167,7 @@ const NavbarForm = () => {
           <h2 className="text-2xl font-bold mb-4">
             {isEditMode ? "Edit Navbar" : "Create Navbar"}
           </h2>
-
+          
           {/* Logo Input */}
           <div>
             <label className="block text-sm font-semibold text-gray-700 mb-1">

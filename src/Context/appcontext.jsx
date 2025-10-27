@@ -32,7 +32,7 @@ console.log(backendUrl);
     }
   }, []);
 
-
+ 
   const signup = async (username, email, password) => {
     try {
       const response = await fetch(`${backendUrl}/user`, {
@@ -87,6 +87,7 @@ console.log(backendUrl);
       return false;
     }
   };
+  
 
   //navbar api fatch
   const getNavbar = async () => {

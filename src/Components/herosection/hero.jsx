@@ -270,12 +270,12 @@ const HeroSectionAdmin = () => {
             />
           </div>
 
-          <button
-            type="submit"
-            className="w-[30%] bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition"
-          >
-            Save Hero Section
-          </button>
+            <button
+              type="submit"
+              className="w-[30%] bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition"
+            >
+              Save Hero Section
+            </button>
         </form>
 
         <div className="mt-8 bg-white shadow-md rounded-lg p-6">
